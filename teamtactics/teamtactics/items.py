@@ -20,6 +20,7 @@ class TeamtacticsItem(scrapy.Item):
     mr = scrapy.Field()
     ar_health = scrapy.Field()
     mr_health = scrapy.Field()
-    vangurad = scrapy.Field()
+    vanguard = scrapy.Field()
+    crawler=scrapy.Field()
     mystic_health = scrapy.Field()
     pass
